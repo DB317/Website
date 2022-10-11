@@ -1,0 +1,61 @@
+body{
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    }
+
+.topnav h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.clickableImage img:hover{
+    transition: .5s ease;
+    opacity: 0.3;
+}
+.clickableImage{
+    margin: 10px;
+}
+
+.bearFacts{
+    display: inline-block;
+}
+
+.bearImage{
+    padding: 10px;
+    display: inline-block;vertical-align: top;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    /* Changes for exercise */
+    body {
+        background-color:azure;
+        color: #111111;
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    main {
+        margin: 0 20%;
+    }
+}
